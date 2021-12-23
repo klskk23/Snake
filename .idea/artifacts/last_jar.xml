@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact name="贪吃蛇last:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/last_jar</output-path>
+    <root id="root">
+      <element id="archive" name="贪吃蛇last.jar">
+        <element id="module-output" name="贪吃蛇last" />
+      </element>
+    </root>
+  </artifact>
+</component>
