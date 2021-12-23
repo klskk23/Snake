@@ -81,7 +81,8 @@ public class GamePanel extends JPanel{
         for(Node node:body){
             g.fillRoundRect(node.getX()*20, node.getY()*20,20,20,50,50);
         }
-        g.fillRoundRect(snake.body.getFirst().getX()*20, snake.body.getFirst().getY()*20,25,25,100,100);
+        g.setColor(Color.MAGENTA);
+        g.fillRoundRect(snake.body.getFirst().getX()*20, snake.body.getFirst().getY()*20,20,20,50,50);
         //绘制food
         g.setColor(Color.GREEN);
         g.fillRoundRect(food.getX()*20,food.getY()*20,20,20,50,50);
