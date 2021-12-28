@@ -77,7 +77,7 @@ public class GameFrame extends JFrame {
         score_get.setFocusable(false);
 
         //JPanel对象
-        gamePanel = new GamePanel(null);
+        gamePanel = new GamePanel(new FlowLayout());
         container.add(gamePanel);
         game_start.addActionListener(new ActionListener() {
             @Override
